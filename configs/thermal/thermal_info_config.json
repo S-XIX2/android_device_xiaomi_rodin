@@ -297,7 +297,7 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -312,7 +312,7 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -327,7 +327,7 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -342,7 +342,7 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -357,7 +357,7 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -372,7 +372,7 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -387,7 +387,7 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -402,7 +402,7 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -417,7 +417,7 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -432,16 +432,16 @@
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
             "Name":"battery",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -454,9 +454,9 @@
             "Name":"bms",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -469,9 +469,9 @@
             "Name":"mt6375-gauge",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -484,9 +484,9 @@
             "Name":"mtk-master-charger",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -499,9 +499,9 @@
             "Name":"mtk-slave-charger",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -514,9 +514,9 @@
             "Name":"mtk-mst-div-chg",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -529,9 +529,9 @@
             "Name":"mtk-slv-div-chg",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -544,9 +544,9 @@
             "Name":"mtk-mst-hvdiv-chg",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -559,9 +559,9 @@
             "Name":"mtk-slv-hvdiv-chg",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -574,9 +574,9 @@
             "Name":"charger1_therm",
             "Type":"BATTERY",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 50.0,
                 55.0,
                 59.0,
@@ -597,7 +597,7 @@
                 115.0,
                 125.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -612,7 +612,7 @@
                 115.0,
                 125.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -627,7 +627,7 @@
                 115.0,
                 125.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -642,7 +642,7 @@
                 115.0,
                 125.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -657,7 +657,7 @@
                 115.0,
                 125.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -672,7 +672,7 @@
                 115.0,
                 125.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -687,7 +687,7 @@
                 115.0,
                 125.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -702,37 +702,37 @@
                 115.0,
                 125.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
             "Name":"mtktsbtsmdpa",
             "Type":"POWER_AMPLIFIER",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 68.0,
                 90.0,
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
             "Name":"mtktsbtsnrpa",
             "Type":"POWER_AMPLIFIER",
             "HotThreshold":[
-                "NAN",
-                "NAN",
-                "NAN",
+                "NaN",
+                "NaN",
+                "NaN",
                 68.0,
                 90.0,
                 100.0,
                 110.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -747,7 +747,7 @@
                 90.0,
                 100.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -762,7 +762,7 @@
                 90.0,
                 100.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -777,7 +777,7 @@
                 80.0,
                 90.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
@@ -792,7 +792,7 @@
                 90.0,
                 100.0
             ],
-            "VrThreshold":"NAN",
+            "VrThreshold":"NaN",
             "Multiplier":0.001
         },
         {
