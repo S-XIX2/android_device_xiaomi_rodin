@@ -33,6 +33,9 @@
         <!--DOLBY VQE-->
         <library name="vqe" path="libswvqe.so"/>
         <!--DOLBY END-->
+        <!--Spatial Audio-->
+        <library name="spatializer" path="libspatialaudio.so"/>
+	    <!--Spatial Audio-->
     </libraries>
 
     <!-- list of effects to load.
@@ -88,9 +91,10 @@
         <!--DOLBY VQE-->
         <effect name="vqe" library="vqe" uuid="64a0f614-7fa4-48b8-b081-d59dc954616f"/>
         <!--DOLBY END-->
+        <!--Spatial Audio-->
+        <effect name="spatializer" library="spatializer" uuid="cc4677de-ff72-11eb-9a03-0242ac130003"/>
+	    <!--Spatial Audio-->
     </effects>
-    <postprocess>
-    </postprocess>
     <preprocess>
         <stream type="voice_communication">
             <apply effect="agc"/>
@@ -98,4 +102,15 @@
             <apply effect="ns"/>
         </stream>
     </preprocess>
+    <postprocess>
+        <stream type="music">
+            <apply effect="dlb_music_listener"/> <!--DOLBY ADD-->
+        </stream>
+        <stream type="ring">
+            <apply effect="dlb_ring_listener"/> <!--DOLBY ADD-->
+        </stream>
+        <stream type="alarm">
+            <apply effect="dlb_alarm_listener"/> <!--DOLBY ADD-->
+        </stream>
+    </postprocess>
 </audio_effects_conf>
