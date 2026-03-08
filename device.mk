@@ -333,8 +333,10 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayRodin \
+    FrameworksResOverlayRodinIN \
     NfcOverlayRodin \
     SettingsResOverlayRodin \
+    SettingsProviderResOverlayRodin \
     SystemUIOverlayRodin \
     TetheringConfigOverlay \
     WifiOverlay
