@@ -29,10 +29,10 @@ ifeq ($(TARGET_SHIPS_MIUICAMERA), true)
 else ifeq ($(TARGET_SHIPS_GCAM), true)
     $(call inherit-product-if-exists, vendor/gcam/gcam.mk)
     PRODUCT_VENDOR_PROPERTIES += \
-        vendor.camera.aux.packagelist=com.ss.android.ugc.aweme,org.codeaurora.snapcam,com.agc.gcam88
+        vendor.camera.aux.packagelist=com.ss.android.ugc.aweme,org.codeaurora.snapcam,com.meitu.meiyancamera
 else
     PRODUCT_VENDOR_PROPERTIES += \
-        vendor.camera.aux.packagelist=org.lineageos.aperture
+        vendor.camera.aux.packagelist=org.lineageos.aperture,com.meitu.meiyancamera,com.ss.android.ugc.aweme
 endif
 
 # Inherit BCR
@@ -47,7 +47,7 @@ endif
 
 # Inherit ViPER4Android FX
 ifeq ($(TARGET_SHIPS_VIPERFX), true)
-$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+    $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 endif
 
 # Keys
