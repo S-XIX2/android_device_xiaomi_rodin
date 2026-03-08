@@ -21,6 +21,38 @@ $(call inherit-product, vendor/mediatek/ims/ims.mk)
 # Dolby
 $(call inherit-product-if-exists, hardware/dolby/dolby.mk)
 
+# Camera Configuration
+ifeq ($(TARGET_SHIPS_MIUICAMERA), true)
+    $(call inherit-product-if-exists, device/xiaomi/rodin-miuicamera/device.mk)
+    PRODUCT_VENDOR_PROPERTIES += \
+        vendor.camera.aux.packagelist=com.xiaomi.cameratest,com.xiaomi.factory.mmi,com.xiaomi.runin,com.android.camera
+else ifeq ($(TARGET_SHIPS_GCAM), true)
+    $(call inherit-product-if-exists, vendor/gcam/gcam.mk)
+    PRODUCT_VENDOR_PROPERTIES += \
+        vendor.camera.aux.packagelist=com.ss.android.ugc.aweme,org.codeaurora.snapcam,com.agc.gcam88
+else
+    PRODUCT_VENDOR_PROPERTIES += \
+        vendor.camera.aux.packagelist=org.lineageos.aperture
+endif
+
+# Inherit BCR
+ifeq ($(TARGET_SHIPS_BCR), true)
+    $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+endif
+
+# Inherit PixelPlay Music Player
+ifeq ($(TARGET_SHIPS_PIXELPLAY), true)
+    $(call inherit-product-if-exists, vendor/PixelPlay/PixelPlay.mk)
+endif
+
+# Inherit ViPER4Android FX
+ifeq ($(TARGET_SHIPS_VIPERFX), true)
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+endif
+
+# Keys
+-include vendor/infinity-priv/keys/keys.mk
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.connectivity.rc \
@@ -250,16 +282,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
-
-# MiuiCamera
-ifeq ($(TARGET_SHIPS_MIUICAMERA), true)
-    $(call inherit-product, device/xiaomi/rodin-miuicamera/device.mk)
-    PRODUCT_VENDOR_PROPERTIES += \
-        vendor.camera.aux.packagelist=com.android.camera
-else
-    PRODUCT_VENDOR_PROPERTIES += \
-        vendor.camera.aux.packagelist=org.lineageos.aperture
-endif
 
 # NFC
 PRODUCT_PACKAGES += \
