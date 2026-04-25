@@ -326,6 +326,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlayRodin \
     FrameworksResOverlayRodin \
     FrameworksResOverlayRodinIN \
     NfcOverlayRodin \
