@@ -32,7 +32,7 @@ ifeq ($(TARGET_SHIPS_MIUICAMERA), true)
 else ifeq ($(TARGET_SHIPS_GCAM), true)
     $(call inherit-product-if-exists, vendor/gcam/gcam.mk)
     PRODUCT_VENDOR_PROPERTIES += \
-        vendor.camera.aux.packagelist=com.ss.android.ugc.aweme,org.codeaurora.snapcam,com.meitu.meiyancamera
+        vendor.camera.aux.packagelist=com.google.android.GoogleCameraLMCR18,com.ss.android.ugc.aweme,com.meitu.meiyancamera
 else
     PRODUCT_VENDOR_PROPERTIES += \
         vendor.camera.aux.packagelist=org.lineageos.aperture,com.meitu.meiyancamera,com.ss.android.ugc.aweme
