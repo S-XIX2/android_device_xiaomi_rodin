@@ -7,12 +7,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -22,12 +22,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -37,12 +37,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -52,12 +52,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -67,12 +67,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -82,12 +82,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -97,12 +97,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -112,12 +112,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -127,12 +127,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -142,12 +142,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -157,12 +157,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -172,12 +172,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -187,12 +187,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -202,12 +202,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -217,12 +217,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -232,12 +232,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -247,12 +247,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -262,12 +262,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -277,12 +277,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                117.0
+                95.0,
+                105.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -292,10 +292,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -307,10 +307,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -322,10 +322,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -337,10 +337,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -352,10 +352,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -367,10 +367,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -382,10 +382,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -397,10 +397,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -412,10 +412,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -427,10 +427,10 @@
                 "NaN",
                 "NaN",
                 "NaN",
+                75.0,
                 85.0,
-                90.0,
-                100.0,
-                110.0
+                95.0,
+                103.0
             ],
             "VrThreshold":"NaN",
             "Multiplier":0.001
@@ -442,12 +442,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
+                45.0,
+                48.0,
+                52.0,
+                55.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -457,27 +457,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
+                45.0,
+                48.0,
+                52.0,
+                55.0
             ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"mt6375-gauge",
-            "Type":"BATTERY",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
-            ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -487,12 +472,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
+                45.0,
+                48.0,
+                52.0,
+                55.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -502,12 +487,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
+                45.0,
+                48.0,
+                52.0,
+                55.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -517,12 +502,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
+                45.0,
+                48.0,
+                52.0,
+                55.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -532,12 +517,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
+                45.0,
+                48.0,
+                52.0,
+                55.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -547,12 +532,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
+                45.0,
+                48.0,
+                52.0,
+                55.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -562,12 +547,12 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
+                45.0,
+                48.0,
+                52.0,
+                55.0
             ],
-            "VrThreshold":50.0,
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -577,197 +562,17 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                50.0,
-                55.0,
-                59.0,
-                60.0
+                45.0,
+                48.0,
+                52.0,
+                55.0
             ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"pmic6363-vio18",
-            "Type":"BCL_VOLTAGE",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                105.0,
-                110.0,
-                115.0,
-                125.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"pmic6363-vs1-vs3",
-            "Type":"BCL_VOLTAGE",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                105.0,
-                110.0,
-                115.0,
-                125.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"pmic6363-bk3-bk7",
-            "Type":"BCL_VOLTAGE",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                105.0,
-                110.0,
-                115.0,
-                125.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"pmic6363-vs2",
-            "Type":"BCL_VOLTAGE",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                105.0,
-                110.0,
-                115.0,
-                125.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"pmic6368-buck1",
-            "Type":"BCL_VOLTAGE",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                105.0,
-                110.0,
-                115.0,
-                125.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"pmic6368-vpa",
-            "Type":"BCL_VOLTAGE",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                105.0,
-                110.0,
-                115.0,
-                125.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"pmic6368-vcn33-1",
-            "Type":"BCL_VOLTAGE",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                105.0,
-                110.0,
-                115.0,
-                125.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"pmic6368-vrf18-aif",
-            "Type":"BCL_VOLTAGE",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                105.0,
-                110.0,
-                115.0,
-                125.0
-            ],
-            "VrThreshold":"NaN",
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
             "Name":"mtktsbtsmdpa",
             "Type":"POWER_AMPLIFIER",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                68.0,
-                90.0,
-                100.0,
-                110.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"mtktsbtsnrpa",
-            "Type":"POWER_AMPLIFIER",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                68.0,
-                90.0,
-                100.0,
-                110.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"consys",
-            "Type":"WIFI",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                70.0,
-                80.0,
-                90.0,
-                100.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"wifi_therm",
-            "Type":"WIFI",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                70.0,
-                80.0,
-                90.0,
-                100.0
-            ],
-            "VrThreshold":"NaN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"flash_therm",
-            "Type":"CAMERA",
             "HotThreshold":[
                 "NaN",
                 "NaN",
@@ -781,18 +586,78 @@
             "Multiplier":0.001
         },
         {
+            "Name":"mtktsbtsnrpa",
+            "Type":"POWER_AMPLIFIER",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                60.0,
+                70.0,
+                80.0,
+                90.0
+            ],
+            "VrThreshold":"NaN",
+            "Multiplier":0.001
+        },
+        {
+            "Name":"consys",
+            "Type":"WIFI",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                60.0,
+                70.0,
+                80.0,
+                85.0
+            ],
+            "VrThreshold":"NaN",
+            "Multiplier":0.001
+        },
+        {
+            "Name":"wifi_therm",
+            "Type":"WIFI",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                60.0,
+                70.0,
+                80.0,
+                85.0
+            ],
+            "VrThreshold":"NaN",
+            "Multiplier":0.001
+        },
+        {
+            "Name":"flash_therm",
+            "Type":"CAMERA",
+            "HotThreshold":[
+                "NaN",
+                "NaN",
+                "NaN",
+                50.0,
+                58.0,
+                64.0,
+                70.0
+            ],
+            "VrThreshold":"NaN",
+            "Multiplier":0.001
+        },
+        {
             "Name":"ScreenPmic_therm",
             "Type":"DISPLAY",
             "HotThreshold":[
                 "NaN",
                 "NaN",
                 "NaN",
-                70.0,
-                80.0,
-                90.0,
-                100.0
+                45.0,
+                55.0,
+                60.0,
+                65.0
             ],
-            "VrThreshold":"NaN",
+            "VrThreshold":45.0,
             "Multiplier":0.001
         },
         {
@@ -802,13 +667,22 @@
                 "NaN",
                 "NaN",
                 "NaN",
-                48.0,
-                52.0,
-                57.0,
-                62.0
+                50.0,
+                53.0,
+                56.0,
+                60.0
             ],
-            "VrThreshold":48.0,
-            "Multiplier":0.001
+            "VrThreshold":45.0,
+            "Multiplier":0.001,
+            "HotHysteresis":[
+                0.0,
+                0.0,
+                0.0,
+                1.5,
+                2.0,
+                2.0,
+                2.0
+            ]
         },
         {
             "Name":"mtktsAP",
@@ -818,177 +692,21 @@
                 "NaN",
                 "NaN",
                 50.0,
-                55.0,
-                60.0,
-                65.0
+                53.0,
+                56.0,
+                60.0
             ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin-max",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin1",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin2",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin3",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin4",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin5",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin6",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin7",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin8",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin9",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
-        },
-        {
-            "Name":"vtskin10",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NaN",
-                "NaN",
-                "NaN",
-                50.0,
-                55.0,
-                60.0,
-                65.0
-            ],
-            "VrThreshold":50.0,
-            "Multiplier":0.001
+            "VrThreshold":45.0,
+            "Multiplier":0.001,
+            "HotHysteresis":[
+                0.0,
+                0.0,
+                0.0,
+                1.5,
+                2.0,
+                2.0,
+                2.0
+            ]
         }
     ],
     "CoolingDevices":[
@@ -1054,7 +772,7 @@
         },
         {
             "Name":"flashlight_cooler",
-            "Type":"FLASHLIGHT"
+            "Type":"CAMERA"
         }
     ]
 }
