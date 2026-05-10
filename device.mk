@@ -51,6 +51,7 @@ endif
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.batterysecret.rc \
     init.connectivity.rc \
     init.mi_thermald.rc \
     init.modem.rc \
