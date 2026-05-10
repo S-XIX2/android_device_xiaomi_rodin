@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2023-2025 Paranoid Android
+ * SPDX-FileCopyrightText: Paranoid Android
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -22,11 +22,6 @@ import android.util.Log
 import androidx.core.os.postDelayed
 
 class ColorService : Service() {
-    companion object {
-        private const val TAG = "ColorService"
-        private val DEBUG = Log.isLoggable(TAG, Log.DEBUG)
-        private val DEFAULT_COLOR_MODE = SystemProperties.getInt("persist.sys.sf.native_mode", 0)
-    }
 
     private val handler = Handler(Looper.getMainLooper())
     private lateinit var ambientConfig: AmbientDisplayConfiguration
@@ -42,10 +37,7 @@ class ColorService : Service() {
 
     private val screenStateReceiver =
         object : BroadcastReceiver() {
-            override fun onReceive(
-                context: Context,
-                intent: Intent,
-            ) {
+            override fun onReceive(context: Context, intent: Intent) {
                 if (DEBUG) Log.d(TAG, "onReceive: ${intent.action}")
                 when (intent.action) {
                     Intent.ACTION_SCREEN_ON -> {
@@ -64,10 +56,14 @@ class ColorService : Service() {
                             isDozing = false
                             return
                         }
+                        /**
+                         * Use standard color mode in AOD to prevent black pixels from illuminating,
+                         * thus reducing power consumption.
+                         */
                         isDozing = true
                         handler.removeCallbacksAndMessages(null)
                         if (DEBUG) Log.d(TAG, "Entered AOD, set color mode to standard")
-                        handler.post { ColorMode.STANDARD.setCurrent() }
+                        ColorMode.STANDARD.setCurrent()
                     }
                 }
             }
@@ -77,29 +73,22 @@ class ColorService : Service() {
         super.onCreate()
         if (DEBUG) Log.d(TAG, "onCreate")
         ambientConfig = AmbientDisplayConfiguration(this)
-
         contentResolver.registerContentObserver(
             Settings.System.getUriFor(Settings.System.DISPLAY_COLOR_MODE),
             false,
             settingObserver,
             UserHandle.USER_CURRENT,
         )
-
         val screenStateFilter =
             IntentFilter().apply {
                 addAction(Intent.ACTION_SCREEN_ON)
                 addAction(Intent.ACTION_SCREEN_OFF)
             }
         registerReceiver(screenStateReceiver, screenStateFilter)
-
         setCurrentColorMode()
     }
 
-    override fun onStartCommand(
-        intent: Intent?,
-        flags: Int,
-        startId: Int,
-    ): Int {
+    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         if (DEBUG) Log.d(TAG, "onStartCommand")
         return START_STICKY
     }
@@ -118,7 +107,6 @@ class ColorService : Service() {
             if (DEBUG) Log.d(TAG, "setCurrentColorMode: skip in AOD")
             return
         }
-
         val colorMode =
             Settings.System.getIntForUser(
                 contentResolver,
@@ -126,15 +114,14 @@ class ColorService : Service() {
                 DEFAULT_COLOR_MODE,
                 UserHandle.USER_CURRENT,
             )
-
         val mode =
-            ColorMode.fromId(colorMode) ?: run {
-                Log.e(TAG, "setCurrentColorMode: $colorMode is not in colorMap!")
-                return
-            }
-
+            ColorMode.fromId(colorMode)
+                ?: run {
+                    Log.e(TAG, "setCurrentColorMode: $colorMode is not in colorMap!")
+                    return
+                }
         if (DEBUG) Log.d(TAG, "setCurrentColorMode: $mode")
-        handler.post { mode.setCurrent() }
+        mode.setCurrent()
     }
 
     enum class ColorMode(
@@ -149,8 +136,7 @@ class ColorService : Service() {
         STANDARD(257, 2, 2, 255),
         ORIGINAL(269, 26, 1, 0, true),
         P3(268, 26, 2, 0, true),
-        SRGB(267, 26, 3, 0, true),
-        ;
+        SRGB(267, 26, 3, 0, true);
 
         fun setCurrent() {
             if (DEBUG) Log.d(TAG, "set current mode $this")
@@ -165,7 +151,24 @@ class ColorService : Service() {
             private const val EXPERT_VALUE = 0
             private const val EXPERT_COOKIE = 10
 
-            fun fromId(id: Int): ColorMode? = values().find { it.id == id }
+            fun fromId(id: Int): ColorMode? {
+                return values().find { it.id == id }
+            }
+        }
+    }
+
+    companion object {
+        private const val TAG = "ColorService"
+        //private val DEBUG = Log.isLoggable(TAG, Log.DEBUG)
+        private val DEBUG = true
+
+        private val DEFAULT_COLOR_MODE = SystemProperties.getInt("persist.sys.sf.native_mode", 0)
+
+        fun startService(context: Context) {
+            context.startServiceAsUser(
+                Intent(context, ColorService::class.java),
+                UserHandle.CURRENT,
+            )
         }
     }
 }
