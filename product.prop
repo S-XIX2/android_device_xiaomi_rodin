@@ -1,1 +1,4 @@
 ro.product.marketname=POCO X7 Pro
+
+# FUSE
+persist.sys.fuse.passthrough.enable=true
