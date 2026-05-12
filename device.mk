@@ -53,9 +53,6 @@ ifeq ($(TARGET_SHIPS_VIPERFX), true)
     $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 endif
 
-# Keys
--include vendor/infinity-priv/keys/keys.mk
-
 # Rootdir
 PRODUCT_PACKAGES += \
     init.batterysecret.rc \
