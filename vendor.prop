@@ -329,7 +329,7 @@ ro.lmk.stall_limit_critical=40
 # Media
 debug.stagefright.c2inputsurface=-1
 debug.c2.use_dmabufheaps=1
-media.c2.dmabuf.padding=3072
+media.c2.dmabuf.padding=512
 media.c2.hal.selection=aidl
 ro.vendor.gpu.dataspace=1
 media.stagefright.thumbnail.prefer_hw_codecs=true
@@ -485,7 +485,7 @@ debug.sf.early.sf.duration=13100000
 debug.sf.early.app.duration=14600000
 debug.sf.earlyGl.sf.duration=13100000
 debug.sf.earlyGl.app.duration=14600000
-debug.sf.hwc.min.duration=8000000
+debug.sf.hwc.min.duration=4000000
 debug.sf.disable_backpressure=1
 debug.sf.enable_gl_backpressure=0
 debug.sf.enable_hwc_vds=0
