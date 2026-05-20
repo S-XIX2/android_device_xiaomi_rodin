@@ -53,8 +53,8 @@ ifeq ($(TARGET_SHIPS_VIPERFX), true)
     $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 endif
 
-# Keys
--include vendor/infinity-priv/keys/keys.mk
+# Private key for signed build
+-include vendor/private-keys/keys/keys.mk
 
 # Rootdir
 PRODUCT_PACKAGES += \
@@ -84,7 +84,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
     hardware/google/pixel \
     hardware/google/interfaces \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/hertzify/interfaces/power-libperfmgr \
     hardware/mediatek \
     hardware/mediatek/libmtkperf_client \
     hardware/mediatek/wlan/wifi_hal \

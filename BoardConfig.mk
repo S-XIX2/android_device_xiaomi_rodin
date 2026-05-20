@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: The Hertzify Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -124,7 +124,7 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/hertzify/config/BoardConfigReservedSize.mk
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6899
