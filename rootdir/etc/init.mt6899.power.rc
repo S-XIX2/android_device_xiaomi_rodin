@@ -36,6 +36,11 @@ on post-fs-data
     write /dev/cpuset/top-app/cpus 0-7
     write /dev/cpuset/camera-daemon/cpus 0-7
 
+    # AxBurstEngine custom cpusets
+    write /dev/cpuset/ax_foreground/cpus 0-7
+    write /dev/cpuset/h-background/cpus 0-3
+    write /dev/cpuset/l-background/cpus 0-2
+
     write /sys/kernel/ged/hal/dcs_mode 1
     write /sys/kernel/ged/hal/dvfs_loading_mode 0
     write /sys/kernel/ged/hal/loading_stride_size 2

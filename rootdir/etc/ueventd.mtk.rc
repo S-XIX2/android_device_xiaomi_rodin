@@ -161,6 +161,9 @@
 /sys/kernel/ged/hal gpu_boost_level    0664 system system
 /sys/kernel/ged/hal dvfs_margin_value  0664 system system
 
+# PMQoS cpu_dma_latency for AxBurstEngine
+/dev/cpu_dma_latency                    0664   system     system
+
 # PowerHAL UFS clock scaling node
 # clkscale_control: new node added to powerhint.json for UFS idle power savings.
 #   No existing reference in any rc file; ueventd sets permissions when the

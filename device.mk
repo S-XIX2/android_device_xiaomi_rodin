@@ -319,7 +319,13 @@ PRODUCT_PACKAGES += \
     libpowerhalwrap_vendor
 
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    $(DEVICE_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
+    $(DEVICE_PATH)/configs/axburst/ax_perf_boosts.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ax_perf_boosts.xml \
+    $(DEVICE_PATH)/configs/axburst/ax_perf_resources.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ax_perf_resources.xml \
+    $(DEVICE_PATH)/configs/axburst/ax_perf_thermal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ax_perf_thermal.xml \
+    $(DEVICE_PATH)/configs/axburst/ax_perf_threads.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ax_perf_threads.xml
+
+TARGET_DISABLES_LIBPERF := true
 
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
